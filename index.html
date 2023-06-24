@@ -170,6 +170,204 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
+    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202303/2023-03-20-KDE%E5%B8%B8%E5%8D%A1%E6%AD%BB%E2%80%94%E2%80%94NVIDIA%E5%87%BA%E6%9D%A5%E6%8C%A8%E6%89%93%EF%BC%81/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eroge Newton">
+      <meta itemprop="description" content="牛顿酱，高中时你在上面, 但现在... 啧，手感真棒！文能上马定乾坤，武能提笔安天下">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="花千醉">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/202303/2023-03-20-KDE%E5%B8%B8%E5%8D%A1%E6%AD%BB%E2%80%94%E2%80%94NVIDIA%E5%87%BA%E6%9D%A5%E6%8C%A8%E6%89%93%EF%BC%81/" class="post-title-link" itemprop="url">KDE常卡死——NVIDIA出来挨打！</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2023-03-20 20:05:00" itemprop="dateCreated datePublished" datetime="2023-03-20T20:05:00+08:00">2023-03-20</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="莫名其妙的卡死"><a href="#莫名其妙的卡死" class="headerlink" title="莫名其妙的卡死"></a>莫名其妙的卡死</h2><h2 id="正常了一会的-TTY"><a href="#正常了一会的-TTY" class="headerlink" title="正常了一会的 TTY"></a>正常了一会的 TTY</h2><h2 id="一切安好的日志"><a href="#一切安好的日志" class="headerlink" title="一切安好的日志"></a>一切安好的日志</h2><h2 id="最终还是-NVIDIA-的锅"><a href="#最终还是-NVIDIA-的锅" class="headerlink" title="最终还是 NVIDIA 的锅"></a>最终还是 NVIDIA 的锅</h2>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
+    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202301/2023-01-09-Flutter%E8%B8%A9%E5%9D%91%E4%B8%80%E8%A7%88/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eroge Newton">
+      <meta itemprop="description" content="牛顿酱，高中时你在上面, 但现在... 啧，手感真棒！文能上马定乾坤，武能提笔安天下">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="花千醉">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/202301/2023-01-09-Flutter%E8%B8%A9%E5%9D%91%E4%B8%80%E8%A7%88/" class="post-title-link" itemprop="url">Flutter 踩坑一览</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2023-01-09 20:05:00" itemprop="dateCreated datePublished" datetime="2023-01-09T20:05:00+08:00">2023-01-09</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h2 id="安装-编译-部分"><a href="#安装-编译-部分" class="headerlink" title="安装 + 编译 部分"></a>安装 + 编译 部分</h2><h3 id="编译-Linux-时报错、"><a href="#编译-Linux-时报错、" class="headerlink" title="编译 Linux 时报错、"></a>编译 Linux 时报错、</h3><p>太坑了，忙活了好几个小时，终于解决了</p>
+<p>两种表现形式 </p>
+<figure class="highlight sh"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line">/usr/bin/ld: cannot find -lstdc++ </span><br><span class="line">/usr/include/glib-2.0/glib/glib-typeof.h:39:10: fatal error: <span class="string">&#x27;type_traits&#x27;</span> file not found</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+
+<p>不能在 <code>/usr/lib/x86_64-linux-gnu/</code> 直接链接 <code>libstdc++.6.so</code> 到 <code>libstdc++</code>，这样会报错 </p>
+<p>这个网页给出的方法行不通，反而干扰 浅醉 的后续排错。<br><a target="_blank" rel="noopener" href="https://www.saoniuhuo.com/question/detail-2262990.html#">ubuntu “&#x2F;usr&#x2F;bin&#x2F;ld文件夹：找不到-lstdc++：运行flutter linux应用程序时没有这样的文件或目录” _大数据知识库</a> </p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/202301/2023-01-09-Flutter%E8%B8%A9%E5%9D%91%E4%B8%80%E8%A7%88/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
+    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202212/2022-12-28-%E9%A1%BA%E6%89%8B%E5%86%99%E5%86%99%20Markdown%20%E5%92%8C%20HTML%20%E8%AF%AD%E6%B3%95/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eroge Newton">
+      <meta itemprop="description" content="牛顿酱，高中时你在上面, 但现在... 啧，手感真棒！文能上马定乾坤，武能提笔安天下">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="花千醉">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/202212/2022-12-28-%E9%A1%BA%E6%89%8B%E5%86%99%E5%86%99%20Markdown%20%E5%92%8C%20HTML%20%E8%AF%AD%E6%B3%95/" class="post-title-link" itemprop="url">顺手写写 Markdown 和 HTML 语法</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-12-28 16:00:00" itemprop="dateCreated datePublished" datetime="2022-12-28T16:00:00+08:00">2022-12-28</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>前几天写作时，需要用到 markdown 没有支持的格式，只能从 HTML 里面借，前段搞的少，遇到了不少坑，在此集中记录一下。</p>
+<p>很琐碎</p>
+<h2 id="一-借助-HTML-实现文本折叠"><a href="#一-借助-HTML-实现文本折叠" class="headerlink" title="一 借助 HTML 实现文本折叠"></a>一 借助 HTML 实现文本折叠</h2><h3 id="实现折叠："><a href="#实现折叠：" class="headerlink" title="实现折叠："></a>实现折叠：</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"></span><br><span class="line"><span class="tag">&lt;<span class="name">details</span>&gt;</span> <span class="tag">&lt;<span class="name">summary</span>&gt;</span>最常玩的运动—— 羽毛球<span class="tag">&lt;/<span class="name">summary</span>&gt;</span> </span><br><span class="line"><span class="tag">&lt;<span class="name">p</span>&gt;</span></span><br><span class="line">　　喵喵喵<span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">　　喵喵喵<span class="tag">&lt;<span class="name">br</span>&gt;</span></span><br><span class="line">　　喵喵喵<span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">p</span> <span class="attr">style</span>=<span class="string">&quot;margin:0 0 0 0&quot;</span>&gt;</span> </span><br><span class="line">　　喵喵喵……</span><br><span class="line">    <span class="tag">&lt;/<span class="name">p</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">details</span>&gt;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>也就是 <code>&lt;details&gt;</code> 加上 <code>&lt;summary&gt;&lt;/summary&gt;</code> 这种 HTML 风格。最后的 <code>&lt;/details&gt;</code> 别忘了。</p>
+<h3 id="折叠中的问题："><a href="#折叠中的问题：" class="headerlink" title="折叠中的问题："></a>折叠中的问题：</h3>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/202212/2022-12-28-%E9%A1%BA%E6%89%8B%E5%86%99%E5%86%99%20Markdown%20%E5%92%8C%20HTML%20%E8%AF%AD%E6%B3%95/#more" rel="contents">
+                Read more &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
     <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202212/2022-12-8-Hexo-%E6%BB%A1%E6%9C%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -237,7 +435,7 @@
   
   
   <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
-    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202212/2022-12-5-%E5%85%A8%E5%B9%B3%E5%8F%B0%E6%B6%A9%E6%B6%A9%E8%AE%A1%E5%88%92/">
+    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202212/2023-06-20-EhViewer%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -251,7 +449,118 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/202212/2022-12-5-%E5%85%A8%E5%B9%B3%E5%8F%B0%E6%B6%A9%E6%B6%A9%E8%AE%A1%E5%88%92/" class="post-title-link" itemprop="url">全平台涩涩计划</a>
+            <a href="/202212/2023-06-20-EhViewer%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/" class="post-title-link" itemprop="url">EhViewer常见问题解决方案</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2022-12-05 20:05:00" itemprop="dateCreated datePublished" datetime="2022-12-05T20:05:00+08:00">2022-12-05</time>
+            </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">Edited on</span>
+                <time title="Modified: 2023-06-24 12:05:00" itemprop="dateModified" datetime="2023-06-24T12:05:00+08:00">2023-06-24</time>
+              </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <p>2023-06-20 其实今年来还是写了不少东西，但都堆在本地，没有往 GayHub 上 PR。</p>
+<p>本文是浅醉结合自己近年来 EhViewer 使用经验，综合各大论坛、帖子、开发者日志和代码等内容，梳理出的 EhViewer 常见问题解决方案。（其实就是当年写的文档<del>污言秽语</del>，清理空间时发现了一部分，拿出来缝缝补补）部分内容可能不完全具有普适性，请自行斟酌。</p>
+<h2 id="〇、E-Hentai-及-EhViewer-简介"><a href="#〇、E-Hentai-及-EhViewer-简介" class="headerlink" title="〇、E-Hentai 及 EhViewer 简介"></a>〇、E-Hentai 及 EhViewer 简介</h2><p>E-Hentai 略</p>
+<h3 id="EhViewer"><a href="#EhViewer" class="headerlink" title="EhViewer:"></a>EhViewer:</h3><p>Ehviewer是一款用于浏览和管理E绅士（E-Hentai）和Ex绅士（ExHentai）网站内容的<strong>非官方</strong>应用程序。对于移动端进行了适配。应用简洁却功能强大。</p>
+<h4 id="EH-常见版本："><a href="#EH-常见版本：" class="headerlink" title="EH 常见版本："></a>EH 常见版本：</h4><p>向所有 EhViewer 和 同类应用 的开发者献上诚挚敬意！</p>
+<p>绿E原版（Hippo&#x2F;<a target="_blank" rel="noopener" href="https://github.com/seven332">seven332</a>）：这是由 Hippo 开发并维护的Ehviewer早期版本（浅醉没有找到比ta还早的版本，应该是最早）。Hippo 从2014年就开始开发，一直持续到2019年（当年的高考生应该熟悉《流浪地球》和<strong>流浪E站</strong>计划）。维护结束于版本1.7.3，而项目也于当年8月底被归档。**<a target="_blank" rel="noopener" href="https://github.com/seven332/EhViewer">绿E原版链接</a>**。注，Hippo的Github账户是 <a target="_blank" rel="noopener" href="https://github.com/seven332">seven332</a>。开发者目前仍然活跃（2022-12月）。</p>
+<p>在 E-Hentai.org 被奶活之后又出现了各种由社区爱好者维护的新版本。</p>
+<p>白E原版（<a target="_blank" rel="noopener" href="https://gitlab.com/NekoInverter/EhViewer">NekoInverter版</a>）：此版本已停止维护（2022-12），如有使用，请尽快更换——不过此版本应该也不能直连了吧。绿E原版归档后出现的新版，添加了 绕过SNI封锁 等功能，与大陆地区可以直接连接。</p>
+<p>白E新版（<a target="_blank" rel="noopener" href="https://github.com/EhViewer-NekoInverter">EhViewer-NekoInverter</a>版）：白E原版停止更新后出现的新版。项目声明了为“自用”，也没有开发issue。版本号走的较慢，还停留在 1.7.x.x。</p>
+<p>绿E新版（SXJ版，<a target="_blank" rel="noopener" href="https://github.com/xiaojieonly/Ehviewer_CN_SXJ">xiaojieonly</a>）：由 <a target="_blank" rel="noopener" href="https://github.com/xiaojieonly/Ehviewer_CN_SXJ">xiaojieonly</a> 开发维护的新版绿E，就笔者实际体验而言，在一众版本中稳定性优秀。更新也较迅速，issue也最活跃。但在细节上处理的比较粗糙。</p>
+<p>彩E版本（<a target="_blank" rel="noopener" href="https://github.com/Ehviewer-Overhauled/Ehviewer">Ehviewer</a>）：今年才出的新版，但迭代速度快（Action确实好用），Material Design 3风格，就视觉而言较为舒适。由 <a target="_blank" rel="noopener" href="https://github.com/Ehviewer-Overhauled">Ehviewer-Overhauled</a> 维护，主要开发者应该是 <a target="_blank" rel="noopener" href="https://github.com/asuka-mio">tarsin</a>。原先有1.7 和1.8两个版本，上个月（2022-11）已经合并。</p>
+<h4 id="EhViewer-类似应用："><a href="#EhViewer-类似应用：" class="headerlink" title="EhViewer 类似应用："></a>EhViewer 类似应用：</h4><p>类似于EhViewer的还有 <a target="_blank" rel="noopener" href="https://github.com/jiangtian616/JHenTai">JHentai</a>、<a target="_blank" rel="noopener" href="https://github.com/honjow/FEhViewer">FEhViewer</a>、<a target="_blank" rel="noopener" href="https://github.com/tatsuz0u/EhPanda">EhPanda</a> 等应用，以上三者都同时支持 Android&#x2F;iOS 端。<a target="_blank" rel="noopener" href="https://github.com/jiangtian616/JHenTai">JHentai</a>、<a target="_blank" rel="noopener" href="https://github.com/honjow/FEhViewer">FEhViewer</a> 基于Flutter框架，故有全平台支持。浅醉在此不再详细展开。</p>
+<h2 id="2023-06-24-更新-EhViewer-封锁加剧-临时解决方案"><a href="#2023-06-24-更新-EhViewer-封锁加剧-临时解决方案" class="headerlink" title="2023-06-24 更新 EhViewer 封锁加剧 临时解决方案"></a>2023-06-24 更新 EhViewer 封锁加剧 临时解决方案</h2><p>差不多 06-18 日前后，E-Hentai.org 已经出现明显的网络问题。同时，EhViewer 的各个版本也相继出现问题。以 浅醉 习惯的 彩E 来看，已经无法连接，仅仅历史记录中的预览图可以加载。</p>
+<h3 id="2023-06-23-新临时解决方案——里站-新HOST方法无效"><a href="#2023-06-23-新临时解决方案——里站-新HOST方法无效" class="headerlink" title="2023-06-23 新临时解决方案——里站 新HOST方法无效"></a>2023-06-23 新临时解决方案——里站 <del>新HOST方法无效</del></h3><p>新 HOST 方法已无效，实测里站正常。XSJ版本可以直接登录里站使用。彩E 无法直接登录，需要根据 <a target="_blank" rel="noopener" href="http://ehwiki.org/wiki/IPs">http://ehwiki.org/wiki/IPs</a> 自定义 host。</p>
+<h3 id="2023-06-22-问题排查——是-DDoS吗？是GFW？"><a href="#2023-06-22-问题排查——是-DDoS吗？是GFW？" class="headerlink" title="2023-06-22 问题排查——是 DDoS吗？是GFW？"></a>2023-06-22 问题排查——是 DDoS吗？<del>是GFW？</del></h3><p>更新：在 bbs 中闲逛发现了下面的说法，原理上说得清，但真实性存疑（这若是真的，那这脑袋瓜……）：</p>
+<p><img src="/22023-06-20-V2EX%E7%9A%84%E9%94%85%EF%BC%9F.png" alt="V2EX莫用户的锅？"></p>
+<p>在V2EX上简单浏览了一下，该用户确实……而ta所声明的那几个网站，Cloudflare 确实无法把大陆IP给禁了，因此似乎不是 GFW 的bug。截图就不贴了。</p>
+<p>但就现在这情况，只要不是 GFW，什么原因都可以吧。</p>
+<hr>
+<p>这部分太多了，涉及到 GFW，打了不少字，还是略了。</p>
+<p>新版绿E已经更新，提供了解决方案。可前往下载 <a target="_blank" rel="noopener" href="https://github.com/xiaojieonly/Ehviewer_CN_SXJ/releases/tag/1.9.5.2">1.9.5.2版</a> 。</p>
+<h3 id="2023-06-20-临时解决方案（host）——感谢-NiceBowl"><a href="#2023-06-20-临时解决方案（host）——感谢-NiceBowl" class="headerlink" title="2023-06-20 临时解决方案（host）——感谢 NiceBowl"></a>2023-06-20 临时解决方案（host）——感谢 NiceBowl</h3><p>加个 Host。目前仍原因不明。</p>
+<p><a target="_blank" rel="noopener" href="https://nicebowl.fun/11">E绅士里站访问教程——从注册账号到进入里站</a>，见20日更新。</p>
+<blockquote>
+<p>20230620更新：E绅士表站的主站IP近期受到封锁，原因不明，暂时可以通过自定义hosts e-hentai.org 178.162.139.18 解决（可更换为 <a target="_blank" rel="noopener" href="http://ehwiki.org/wiki/IPs">http://ehwiki.org/wiki/IPs</a> 中  api.e-hentai.org 对应的任意IP）。E绅士里站仍然可以照常直连。</p>
+</blockquote>
+<p>对应网站也都可以直连，就不放截图了。</p>
+<h2 id="2023-06-里站问题"><a href="#2023-06-里站问题" class="headerlink" title="2023-06 里站问题"></a>2023-06 里站问题</h2><p>其实浅醉不是特别想写这部分，但大概是2019年写的文档找不到了o(╥﹏╥)o哭。而且里站比较敏感（误，EhViewer 不敏感？！）</p>
+<p>方法这几年也没有变化，纯净欧洲IP注册，等两个星期别上线。纯净欧洲IP登录论坛，纯净欧洲IP尝试访问 Exhentai。如果访问不成功，清除所有e站cookie后更新IP重试，如若两三个纯净IP都不行，退出再等两个星期再来。有教程表示需要等一个月，但浅醉两个账户都在两三个星期就获得了权限。</p>
+<p>关于新加的 yay 的 cookie，实际操作中未发现有什么影响。</p>
+<p>所有的cookie默认有效期是一年。实测再次登录，有效期会自动更新延期。</p>
+<p>其实，E站的封锁有点迷，浅醉也曾通过多伦多的IP成功访问里站，也被欧洲IP封锁过。前几天还见到了有通过印度IP访问成功的用户。</p>
+<h2 id="2022-12-05-EhViewer-各版本数据迁移"><a href="#2022-12-05-EhViewer-各版本数据迁移" class="headerlink" title="2022-12-05 EhViewer 各版本数据迁移"></a>2022-12-05 EhViewer 各版本数据迁移</h2><p>说过了 SXJ 版本的数据库问题，现在来看 黑E、彩E、白E、绿E 之间的数据迁移也比较简单了。既然还有问那就顺便写一下吧。</p>
+<p>登录部分：没什么好说的，直接拷贝 cookie，然后粘贴登录即可。网页版、账户密码登录也都一样。（考虑到里站，可行性上：cookie 登录 &gt;&gt; 网页版登录 &#x3D; 账户密码登录）cookie 登录可以不限制 IP 就解锁里站，当然，得知道自己的 igneous 值。</p>
+<p>下载列表：导出：右滑 -&gt; 设置 -&gt; 高级 -&gt; 导出数据。导入就是下面那个“导入数据”，而后选择数据库即可。注意：刚刚说了 SXJ版本 数据库有变化，所以可能需要转换。无论是否转换、是否跨应用，浅醉 在此都强烈建议导入前对数据库进行备份（复制个 bak，滑稽）。</p>
+<p>还需要注意下载路径，见“下载”部分。默认的下载路径往往在于 EhViewer&#x2F;download 或 应用自身 data 文件夹（Android&#x2F;data&#x2F;com.***.EhViewer&#x2F;download，Android 12往后访问不了）。</p>
+<h2 id="2022-12-05-EhViewer-SXJ-数据库风波-解决方案"><a href="#2022-12-05-EhViewer-SXJ-数据库风波-解决方案" class="headerlink" title="2022-12-05 EhViewer SXJ 数据库风波 解决方案"></a>2022-12-05 EhViewer SXJ 数据库风波 解决方案</h2><p>这事发生在去年（2021-11）前后，有用户发现在其他版本导入&#x2F;导出的数据难以于SXJ版本共用。甚至其他版本导出的数据库，在尝试导入SXJ版本后，不光显示导入失败，同时原数据库也会被“污染”，对于导出数据库的版本亦不可用——即原数据库被篡改。（怎么感觉自己描述的不清不楚啊）。</p>
+<p>对此SXJ版本开发者出面解释：</p>
+<blockquote>
+<p>这个问题应该是因为我的软件数据库添加了一个用户<strong>黑名单的表</strong>，而其他版本的软件没有<strong>添加用户黑名单的功能</strong>，自然就没有这张表，所以才会出现我这个版本的软件导出的数据没法被别人的版本使用的问题</p>
+</blockquote>
+<p>原文见 <a target="_blank" rel="noopener" href="https://github.com/xiaojieonly/Ehviewer_CN_SXJ/issues/168">issue168</a>。（因为笔者对Android原生开发了解不多，实力有限，无法验证此说法，请自行甄别。毕竟源码也开源可见，往 Action 里面扔一下也不难。）</p>
+<p>解决方案：</p>
+<p>可以通过 <a target="_blank" rel="noopener" href="http://ehconverter.skymkmk.com/">EhConverter v1.0.0-deprecated</a> 进行转换，网站已经开源，<a target="_blank" rel="noopener" href="https://github.com/skymkmk/EhConverter">源码</a>，请自行甄别。（浅醉 做了简单测试，确实可以修复问题，原理未深究）</p>
+<h2 id="2022-12-05-流浪熊猫！流浪E站！"><a href="#2022-12-05-流浪熊猫！流浪E站！" class="headerlink" title="2022-12-05 流浪熊猫！流浪E站！"></a>2022-12-05 流浪熊猫！流浪E站！</h2><p>时间有点远，当年写的博客没找到，就不粘了。</p>
+<p>留个标题，留做纪念吧。</p>
+<p>熊猫当年的文章很多，不难找到。</p>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="en,zh-Han">
+    <link itemprop="mainEntityOfPage" href="https://eroge-newton.github.io/202212/2022-12-05-%E5%85%A8%E5%B9%B3%E5%8F%B0%E6%B6%A9%E6%B6%A9%E8%AE%A1%E5%88%92/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="Eroge Newton">
+      <meta itemprop="description" content="牛顿酱，高中时你在上面, 但现在... 啧，手感真棒！文能上马定乾坤，武能提笔安天下">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="花千醉">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/202212/2022-12-05-%E5%85%A8%E5%B9%B3%E5%8F%B0%E6%B6%A9%E6%B6%A9%E8%AE%A1%E5%88%92/" class="post-title-link" itemprop="url">全平台涩涩计划</a>
         </h2>
 
         <div class="post-meta">
@@ -561,7 +870,7 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">9</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -574,7 +883,7 @@
       <div class="site-state-item site-state-tags">
             <a href="/tags/">
           
-        <span class="site-state-item-count">9</span>
+        <span class="site-state-item-count">17</span>
         <span class="site-state-item-name">tags</span></a>
       </div>
   </nav>
@@ -605,7 +914,7 @@
 <div class="copyright">
   
   &copy; 
-  <span itemprop="copyrightYear">2022</span>
+  <span itemprop="copyrightYear">2023</span>
   <span class="with-love">
     <i class="fa fa-heart"></i>
   </span>
