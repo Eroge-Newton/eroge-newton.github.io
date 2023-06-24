@@ -27,6 +27,9 @@
 <meta property="og:site_name" content="花千醉">
 <meta property="og:description" content="2023-06-24 更新 EhViewer 封锁加剧 临时解决方案 2023-06-20 其实今年来还是写了不少东西，但都堆在本地，没有往 GayHub 上 PR。 本文是浅醉结合自己近年来 EhViewer 使用经验，综合各大论坛、帖子、开发者日志和代码等内容，梳理出的 EhViewer 常见问题解决方案。（其实就是当年写的文档污言秽语，清理空间时发现了一部分，拿出来缝缝补补）部分内容可能不完">
 <meta property="og:locale">
+<meta property="og:image" content="https://eroge-newton.github.io/pic/2023-06-20-%E7%BB%BFE%E6%96%B0%E7%89%88%E7%9B%B4%E8%BF%9E%E9%87%8C%E7%AB%99%E6%AD%A3%E5%B8%B8.png">
+<meta property="og:image" content="https://eroge-newton.github.io/pic/2023-06-20-%E5%BD%A9E%E8%87%AA%E5%AE%9A%E4%B9%89host.png">
+<meta property="og:image" content="https://eroge-newton.github.io/pic/2023-06-20-%E5%BD%A9E%E7%9B%B4%E8%BF%9E%E9%87%8C%E7%AB%99.png">
 <meta property="og:image" content="https://eroge-newton.github.io/pic/2023-06-20-V2EX%E7%9A%84%E9%94%85%EF%BC%9F.png">
 <meta property="article:published_time" content="2023-06-24T04:05:00.000Z">
 <meta property="article:modified_time" content="2023-06-24T04:05:00.000Z">
@@ -35,7 +38,7 @@
 <meta property="article:tag" content="色色">
 <meta property="article:tag" content="涩涩">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="https://eroge-newton.github.io/pic/2023-06-20-V2EX%E7%9A%84%E9%94%85%EF%BC%9F.png">
+<meta name="twitter:image" content="https://eroge-newton.github.io/pic/2023-06-20-%E7%BB%BFE%E6%96%B0%E7%89%88%E7%9B%B4%E8%BF%9E%E9%87%8C%E7%AB%99%E6%AD%A3%E5%B8%B8.png">
 
 <link rel="canonical" href="https://eroge-newton.github.io/202306/2023-06-20-EhViewer%E5%B8%B8%E8%A7%81%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E6%96%B9%E6%A1%88/">
 
@@ -233,7 +236,12 @@
 <p>彩E版本（<a target="_blank" rel="noopener" href="https://github.com/Ehviewer-Overhauled/Ehviewer">Ehviewer</a>）：今年才出的新版，但迭代速度快（Action确实好用），Material Design 3风格，就视觉而言较为舒适。由 <a target="_blank" rel="noopener" href="https://github.com/Ehviewer-Overhauled">Ehviewer-Overhauled</a> 维护，主要开发者应该是 <a target="_blank" rel="noopener" href="https://github.com/asuka-mio">tarsin</a>。原先有1.7 和1.8两个版本，上个月（2022-11）已经合并。</p>
 <h4 id="EhViewer-类似应用："><a href="#EhViewer-类似应用：" class="headerlink" title="EhViewer 类似应用："></a>EhViewer 类似应用：</h4><p>类似于EhViewer的还有 <a target="_blank" rel="noopener" href="https://github.com/jiangtian616/JHenTai">JHentai</a>、<a target="_blank" rel="noopener" href="https://github.com/honjow/FEhViewer">FEhViewer</a>、<a target="_blank" rel="noopener" href="https://github.com/tatsuz0u/EhPanda">EhPanda</a> 等应用，以上三者都同时支持 Android&#x2F;iOS 端。<a target="_blank" rel="noopener" href="https://github.com/jiangtian616/JHenTai">JHentai</a>、<a target="_blank" rel="noopener" href="https://github.com/honjow/FEhViewer">FEhViewer</a> 基于Flutter框架，故有全平台支持。浅醉在此不再详细展开。</p>
 <h2 id="2023-06-24-更新-EhViewer-封锁加剧-临时解决方案"><a href="#2023-06-24-更新-EhViewer-封锁加剧-临时解决方案" class="headerlink" title="2023-06-24 更新 EhViewer 封锁加剧 临时解决方案"></a>2023-06-24 更新 EhViewer 封锁加剧 临时解决方案</h2><p>差不多 06-18 日前后，E-Hentai.org 已经出现明显的网络问题。同时，EhViewer 的各个版本也相继出现问题。以 浅醉 习惯的 彩E 来看，已经无法连接，仅仅历史记录中的预览图可以加载。</p>
-<h3 id="2023-06-23-新临时解决方案——里站-新HOST方法无效"><a href="#2023-06-23-新临时解决方案——里站-新HOST方法无效" class="headerlink" title="2023-06-23 新临时解决方案——里站 新HOST方法无效"></a>2023-06-23 新临时解决方案——里站 <del>新HOST方法无效</del></h3><p>新 HOST 方法已无效，实测里站正常。XSJ版本可以直接登录里站使用。彩E 无法直接登录，需要根据 <a target="_blank" rel="noopener" href="http://ehwiki.org/wiki/IPs">http://ehwiki.org/wiki/IPs</a> 自定义 host。</p>
+<h3 id="2023-06-23-新临时解决方案——里站-新HOST方法无效"><a href="#2023-06-23-新临时解决方案——里站-新HOST方法无效" class="headerlink" title="2023-06-23 新临时解决方案——里站 新HOST方法无效"></a>2023-06-23 新临时解决方案——里站 <del>新HOST方法无效</del></h3><p>新 HOST 方法已无效，实测里站正常。XSJ版本可以直接登录里站使用。</p>
+<p><img src="/pic/2023-06-20-%E7%BB%BFE%E6%96%B0%E7%89%88%E7%9B%B4%E8%BF%9E%E9%87%8C%E7%AB%99%E6%AD%A3%E5%B8%B8.png" alt="绿E新版直连里站正常.png"></p>
+<p>彩E 无法直接登录，需要根据 <a target="_blank" rel="noopener" href="http://ehwiki.org/wiki/IPs">http://ehwiki.org/wiki/IPs</a> 自定义 host。</p>
+<p>实测定义host如图：</p>
+<p><img src="/pic/2023-06-20-%E5%BD%A9E%E8%87%AA%E5%AE%9A%E4%B9%89host.png" alt="彩E自定义host"></p>
+<p>最后结果：<br><img src="/pic/2023-06-20-%E5%BD%A9E%E7%9B%B4%E8%BF%9E%E9%87%8C%E7%AB%99.png" alt="彩E直连里站.png"></p>
 <h3 id="2023-06-22-问题排查——是-DDoS吗？是GFW？"><a href="#2023-06-22-问题排查——是-DDoS吗？是GFW？" class="headerlink" title="2023-06-22 问题排查——是 DDoS吗？是GFW？"></a>2023-06-22 问题排查——是 DDoS吗？<del>是GFW？</del></h3><p>更新：在 bbs 中闲逛发现了下面的说法，原理上说得清，但真实性存疑（这若是真的，那这脑袋瓜……）：</p>
 <p><img src="/pic/2023-06-20-V2EX%E7%9A%84%E9%94%85%EF%BC%9F.png" alt="V2EX莫用户的锅？"></p>
 <p>在V2EX上简单浏览了一下，该用户确实……而ta所声明的那几个网站，Cloudflare 确实无法把大陆IP给禁了，因此似乎不是 GFW 的bug。截图就不贴了。</p>
